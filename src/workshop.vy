@@ -22,7 +22,7 @@ def enter_raffle():
     self.funders.append(msg.sender)
 
 
-
+@internal
 def pick_winner():
     assert len(self.funders) > 0, "No funders available"
 
