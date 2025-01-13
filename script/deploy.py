@@ -5,7 +5,6 @@ from moccasin.boa_tools import VyperContract
 
 # Deploy the contract
 def deploy() -> VyperContract:
-  network = get_active_network()
 
   deployer = workshop.deploy()
   print(f"see the deployer address {deployer.address}")
